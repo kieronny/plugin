@@ -1,0 +1,20 @@
+<p>
+  <label><%= l(:label_show_in_top_menu) %></label>
+  <span id="watchers_inputs">
+    <span class="floating" style="margin-left: 0px;">
+    <%= hidden_field_tag 'settings[kanban_show_in_top_menu]', 0 %>
+    <%= check_box_tag 'settings[kanban_show_in_top_menu]', 1, @settings["kanban_show_in_top_menu"].to_i > 0 %>
+    </span>
+  </span>
+</p>
+
+<p>
+  <label><%= l(:label_show_in_app_menu) %></label>
+  <span id="watchers_inputs">
+    <span class="floating" style="margin-left: 0px;">
+    <%= hidden_field_tag 'settings[kanban_show_in_app_menu]', 0 %>
+    <%= check_box_tag 'settings[kanban_show_in_app_menu]', 1, @settings["kanban_show_in_app_menu"].to_i > 0 %>
+    </span>
+  </span>
+</p>
+

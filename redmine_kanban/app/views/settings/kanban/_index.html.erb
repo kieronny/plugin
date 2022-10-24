@@ -1,0 +1,6 @@
+<%= render_tabs [
+    {:name => 'general', :partial => 'settings/kanban/general', :label => :label_kanban},
+  ] %>
+<script>
+	window.current_user = '{"id": "<%=  User.current.id %>", "name": "<%=  User.current.name %>", "language": "<%= locale.to_s %>", "api_key": "<%= User.current.api_key %>"}'
+</script>

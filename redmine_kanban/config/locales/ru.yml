@@ -1,0 +1,60 @@
+# Russian strings go here for Rails i18n
+ru:
+  project_module_kanban: 'Канбан'
+  settings_tab_label_checklist_templates: "Чек-листы"
+  label_questionlist: "Чеклисты"
+  label_kanban: "Канбан"
+  field_block_reason: 'Блокировка'
+  label_issue_blocked_at: 'Дата блокировки'
+  filters_label_block_reason: 'Блокировка'
+  field_blocked_at: 'Дата блокировки'
+  kanban_rejected_status: "Неразрешенный статус"
+  kanban_statuses_options: "Отображение статусов"
+  swimlanes: "Плавательные дорожки"
+
+  field_questionlist_title: 'чеклист: "заголовок"'
+  field_question_completed: 'пункт чеклиста: "выполнен"'
+  note_question_completed: 'пункт "%{title}" чеклиста "%{list}" отмечен %{value}'
+  field_question_title: 'пункт чеклиста: "заголовок"'
+  field_question_answer: 'пункт чеклиста: "ответ"'
+  field_question_assigned_to: 'пункт чеклиста: "назначен"'
+  note_questionlist_deleted: 'удален чеклист "%{title}"'
+  note_checklist_template_deleted: 'удален шаблон "%{title}"'
+  note_checklist_template_project: 'изменен проект "%{project}"'
+  note_questionlist_added: 'добавлен чеклист "%{title}"'
+  note_checklist_template_added: 'добавлен шаблон "%{title}"'
+  note_question_added: 'в чеклист "%{list}" добавлен пункт "%{title}"'
+  note_question_deleted: 'из чеклиста "%{list}" удален пункт "%{title}"'
+  question_completed: 'выполненым'
+  question_not_completed: 'не выполненым'
+  error_question_not_assignable: 'Исполнитель "%{name}" не может быть назначен для этой задачи'
+
+  project_module_checklists: 'Чеклисты'
+  permission_manage_global_checklist_templates: 'Управление общими шаблонами чеклистов'
+  permission_manage_project_checklist_templates: 'Управление шаблонами чеклистов проекта'
+  permission_manage_global_assigned_checklist_templates: 'Управление общими шаблонами чеклистов типа "виза"'
+  permission_manage_project_assigned_checklist_templates: 'Управление шаблонами чеклистов типа "виза" проекта'
+  permission_manage_any_checklist_assigned: 'Управление любыми чеклистами типа "виза"'
+  permission_save_boards_kanban: "Сохранение досок"
+  permission_manage_public_boards_kanban: "Редактирование публичных досок"
+  permission_view_kanban: "Просмотр"
+  no_privileges: "Недостаточно прав"
+
+
+  label_my_kanban_queries: 'Мои доски'
+  label_kanban_query_plural: 'Общие доски'
+  kanban_available_fields: 'Доступные поля'
+  record_already_updated: "Объект уже был изменен"
+  invalid_action_attribute: "Invalid action parameter"
+
+  label_show_in_top_menu: 'Показывать в верхнем меню'
+  label_show_in_app_menu: 'Показывать в меню приложения'
+  label_select_all: 'Выделить все'
+
+
+  permission_save_boards_kanban: "Сохранение досок"
+  permission_manage_public_boards_kanban: "Редактирование публичных досок"
+  permission_view_kanban: "Просмотр"
+  no_privileges: "Недостаточно прав"
+  message_disabled_create_more_one: 'Можно создать только один чеклист'
+

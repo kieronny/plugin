@@ -1,0 +1,10 @@
+<% if @issue.project.module_enabled?('kanban') && @issue.new_record? ==   false %>
+<div class="attributes">
+  <div class="splitcontent">
+    <%= render :partial => 'issue_blocked_form', :locals => { :form => form } %>
+  </div>
+<!--  <div class="splitcontent">-->
+    <%#= render :partial => 'issue_complexity_form', :locals => { :form => form } %>
+<!--  </div>-->
+</div>
+<% end -%>

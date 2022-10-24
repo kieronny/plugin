@@ -1,0 +1,13 @@
+<% if @issue.project.module_enabled?('checklists') %>
+			 <hr />
+	<div id="questionlist" init_issues="<%= @issues.to_json %>"></div>
+
+	<script>
+		window.issue = '<%= @issue.id %>'
+		window.current_user = '{"id": "<%=  User.current.id %>", "name": "<%=  User.current.name %>", "language": "<%= locale.to_s %>", "api_key": "<%= User.current.api_key %>"}'
+		window.settings = '{"can_add": "<%= @issue.can_add_checklist? %>", "can_add_visa": false, "can_save_as_template": false, "attachment_max_size": "<%= Setting.attachment_max_size.to_i.kilobytes %>", "attachment_extensions_denied": "<%= Setting.attachment_extensions_denied.strip %>", "attachment_extensions_allowed": "<%= Setting.attachment_extensions_allowed.strip %>"}';
+	</script>
+
+		<%= javascript_include_tag 'checklist.js', plugin: 'redmine_kanban' %>
+
+<% end %>

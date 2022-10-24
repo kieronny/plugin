@@ -1,0 +1,16 @@
+
+        <table>
+
+          <% if @query.available_block_columns.any? %>
+            <tr>
+              <td class="field"><%= l(:button_show) %></td>
+              <td><%= available_kanban_columns_tags(@query) %></td>
+            </tr>
+          <% end %>
+          <% if 1==1 %>
+            <tr>
+              <td class="field"><%= l(:kanban_statuses_options) %></td>
+              <td><%= available_statuses_tags(@query) %></td>
+            </tr>
+          <% end %>
+        </table>

@@ -1,0 +1,51 @@
+# English strings go here for Rails i18n
+en:
+  project_module_kanban: 'Kanban'
+  settings_tab_label_checklist_templates: "Checklists"
+  label_questionlist: "Checklists"
+  label_kanban: "Kanban"
+  field_block_reason: "Block"
+  label_issue_blocked_at: 'Blocked at'
+  filters_label_block_reason: 'Blocked'
+  field_blocked_at: 'Blocked at'
+  kanban_rejected_status: "Restricted status"
+  kanban_statuses_options: "Statuses options"
+  swimlanes: "Swimlanes"
+
+  field_questionlist_title: 'checklist: "name"'
+  field_question_completed: 'item: "done"'
+  note_question_completed: 'item "%{title}" checklist "%{list}" marked %{value}'
+  field_question_title: 'checklist item: "name"'
+  field_question_answer: 'checklist item: "answer"'
+  field_question_assigned_to: 'item: "assigned"'
+  note_questionlist_deleted: '"%{title}" checklist deleted'
+  note_questionlist_added: '"%{title}" checklist added'
+  note_question_added: '"%{title}" item added to checklist "%{list}"'
+  note_question_deleted: '"%{title}" item removed from checklist "%{list}"'
+  question_completed: 'done'
+  question_not_completed: 'not done'
+  error_question_not_assignable: '"%{name}" can not be assigned to this issue'
+
+  project_module_checklists: 'Checklists'
+  permission_manage_global_checklist_templates: 'Manage global checklist templates'
+  permission_manage_project_checklist_templates: 'Manage project checklist templates'
+  permission_manage_global_assigned_checklist_templates: 'Manage global assigned checklist templates'
+  permission_manage_project_assigned_checklist_templates: 'Manage project assigned checklist templates'
+  permission_manage_any_checklist_assigned: 'Manage any assigned checklist'
+  permission_save_boards_kanban: "Save boards"
+  permission_manage_public_boards_kanban: "Edit public boards"
+  permission_view_kanban: "View"
+  no_privileges: "No privileges"
+
+
+  label_my_kanban_queries: 'My boards'
+  label_kanban_query_plural: 'Shared boards'
+  kanban_available_fields: 'Available fields'
+  record_already_updated: "Record already updated"
+  invalid_action_attribute: "Invalid action parameter"
+  
+  label_show_in_top_menu: 'Show in top menu'
+  label_show_in_app_menu: 'Show in application menu'
+  label_select_all: 'Select all'
+
+  message_disabled_create_more_one: 'Disable create checklist more that 1'

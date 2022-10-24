@@ -1,0 +1,50 @@
+# French strings go here for Rails i18n
+fr:
+  project_module_kanban: 'Kanban'
+  settings_tab_label_checklist_templates: "Listes de contrôle"
+  label_questionlist: "Listes de contrôle"
+  label_kanban: "Kanban"
+  field_block_reason: 'Blocage'
+  label_issue_blocked_at: 'Date de verrouillage'
+  filters_label_block_reason: 'Blocage'
+  field_blocked_at: 'Date de verrouillage'
+  kanban_rejected_status: "Statut non résolu"
+  kanban_statuses_options: "Affichage d’état"
+  swimlanes: "Voie de baignade"
+
+#  field_questionlist_title: liste de contrôle: "titre"'
+#  field_question_completed: 'point de contrôle: "exécuté"'
+#  note_question_completed: 'point "%{title}" liste de contrôle "%{list}" enregistré %{value}'
+#  field_question_title: 'point de contrôle: "titre"'
+#  field_question_answer: 'point de contrôle: "réponse"'
+#  field_question_assigned_to: 'point de contrôle: "nommé"'
+#  field_question_due_date: 'point de contrôle: "durée"'
+#  note_questionlist_deleted: 'liste de contrôle supprimée "%{title}"'
+#  note_checklist_template_deleted: 'modèle supprimé "%{title}"'
+#  note_checklist_template_project: 'projet modifié "%{project}"'
+#  note_question_deleted: 'liste de contrôle  "%{list}" supprimer un élément "%{title}"'
+#  question_completed: 'accompli'
+#  question_not_completed: 'non mis en œuvre'
+  error_question_not_assignable: 'auteur "%{name}" ne peut pas être affecté à cette tâche'
+
+  project_module_checklists: 'Listes de contrôle'
+  permission_manage_global_checklist_templates: 'Gérer les modèles de liste de contrôle communs'
+  permission_manage_project_checklist_templates: 'Gestion des modèles de liste de contrôle de projet'
+  permission_manage_global_assigned_checklist_templates: 'Gestion des modèles de liste de contrôle communs type de "visa"'
+  permission_manage_project_assigned_checklist_templates: 'Gestion des modèles de liste de contrôle "visa" du projet'
+  permission_manage_any_checklist_assigned: 'Gestion de toutes les listes de contrôle type "visa"'
+  permission_save_boards_kanban: "Sauvant"
+  permission_manage_public_boards_kanban: "Édition publique"
+  permission_view_kanban: "Projection"
+  no_privileges: "Pas la permission"
+
+
+  label_my_kanban_queries: 'Mes planches'
+  label_kanban_query_plural: 'Conseil général'
+  kanban_available_fields: 'Champs disponibles'
+  record_already_updated: "L’objet a déjà été modifié"
+  invalid_action_attribute: "Paramètre d’action non valide"
+
+  label_show_in_top_menu: 'Afficher dans le menu supérieur'
+  label_show_in_app_menu: 'Afficher dans le menu de l’application'
+  label_select_all: 'Allouer tous'

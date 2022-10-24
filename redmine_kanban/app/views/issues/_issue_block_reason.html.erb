@@ -1,0 +1,8 @@
+<% if @issue.block_reason.present? %>
+<div style="color:red">
+  <%= issue_fields_rows do |rows|
+    rows.left l(:field_block_reason), @issue.block_reason
+    rows.left l(:field_blocked_at), format_date(@issue.blocked_at)
+  end if @issue.block_reason %>
+</div>
+<% end %>

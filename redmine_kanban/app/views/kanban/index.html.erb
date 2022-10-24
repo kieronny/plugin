@@ -1,0 +1,17 @@
+<div>
+  <%= form_tag({}, {:method => :get, :id => 'query_form'}) do %>
+    <%= render :partial => 'kanban_query/form' %>
+  <% end %>
+</div>
+
+<div id="app">
+  <p>Loading...</p>
+</div>
+
+<script>
+    window.kanban_board_settings = '<%= raw @settings.to_json %>';
+    window.current_user = '<%= raw @current_user.to_json %>';
+    window.settings = '<%= raw @checklist_settings.to_json %>'
+</script>
+
+    <%= javascript_include_tag 'main.js', plugin: 'redmine_kanban' %>
